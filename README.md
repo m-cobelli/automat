@@ -36,16 +36,16 @@ At minimum, check:
 
 ```yaml
 task:
-  name: steels
-  description: Predict experimental yield strength of steel alloys from chemical formula only.
+  name: Tc
+  description: Predict experimental Curie temperature of ferromagnets from chemical formula only.
 
 data:
-  dataset_dir: data/steels
+  dataset_dir: data/Tc
   train_file: train.csv
   validation_file: validation.csv
   test_file: test.csv
   composition_column: composition
-  target_column: yield strength
+  target_column: Tc
 ```
 
 4. Start a new autoresearch run in Codex or Claude Code with:
