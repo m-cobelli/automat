@@ -1,7 +1,7 @@
 [project]
 name = "automat"
-version = "0.1.0"
-description = "Local composition descriptor search for experimental band-gap regression."
+version = "1.0.0"
+description = "Autoresearch Workflow for Designing Chemical Composition Descriptors."
 requires-python = ">=3.10,<3.12"
 dependencies = [
     "numpy",
