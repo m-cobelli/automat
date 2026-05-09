@@ -1,0 +1,39 @@
+task:
+  name: steels
+  description: Predict experimental yield strength of steel alloys from chemical formula only.
+
+data:
+  dataset_dir: data/steels
+  train_file: train.csv
+  validation_file: validation.csv
+  test_file: test.csv
+  composition_column: composition
+  target_column: yield strength
+
+autoresearch:
+  max_iterations: 100
+  validation_patience: 10
+  keep_metric: cv_mae
+  validation_metric: val_mae
+  lower_is_better: true
+
+descriptor:
+  default_name: baseline
+
+cv:
+  folds: 3
+  stratification_bins: 8
+
+model:
+  name: random_forest_regressor
+  n_estimators: 400
+  max_depth: null
+  min_samples_split: 2
+  min_samples_leaf: 1
+  max_features: 1.0
+  n_jobs: -1
+  random_seed: 9
+
+logging:
+  results_file: results.tsv
+  ideas_file: ideas.tsv

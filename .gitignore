@@ -1,0 +1,37 @@
+# Python caches and build artifacts
+__pycache__/
+*.py[cod]
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+build/
+dist/
+site/
+*.egg-info/
+
+# Local environments
+.venv/
+.python-version
+
+# Repo-local scratch and generated experiment artifacts
+run.log
+validation.log
+results.tsv
+ideas.tsv
+test_predictions.csv
+results.json.gz
+
+
+# Workspace / launcher files
+.codex
+CLAUDE.md
+AGENTS.md
+worktrees/
+results/
+queue/
+dev/
