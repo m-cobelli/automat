@@ -195,7 +195,7 @@ If a proposed descriptor is similar to a prior discarded descriptor, `descriptor
 
 A small performance improvement is not worth it if it adds unnecessary or messy complexity. On the other hand, if removing something gives equal or better results, that is a strong outcome.
 
-Do not keep adding features blindly. Be mindful of the descriptor size keep it under 400 max the. The smaller and performant the better. If the descriptors become very large, you probably do not need all of them.
+Do not keep adding features blindly. Be mindful of the descriptor size keep it under 400 features. The smaller and more performant, the better. If the descriptors become very large, you probably do not need all of them.
 
 Focus on bespoke, task-relevant features that are likely to help with the specific problem you are trying to solve.
 
