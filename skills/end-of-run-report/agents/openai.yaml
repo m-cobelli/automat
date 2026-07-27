@@ -1,0 +1,6 @@
+interface:
+  display_name: "End-of-Run Report"
+  short_description: "Generate scientific autoresearch run reports"
+
+policy:
+  allow_implicit_invocation: false
