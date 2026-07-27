@@ -72,7 +72,9 @@ experiment needs additional stopping criteria.
 
 ## Final Evaluation
 
-After autoresearch stops, evaluate the selected descriptor on the untouched test
+Once the autoresearch run stops, insights can be gained by auditing the logs and the various commits. To facilitate this process, we provide an `end-of-run-report` skill in the `skills` folder. This skill can be invoked to automatically generate a report that summarises the run’s findings and helps the user select the appropriate descriptors.
+
+To evaluate the selected descriptor on the untouched test
 split:
 
 ```bash
