@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use Automat, please cite this software and the associated research paper."
+title: "Automat: Autoresearch Workflow for Designing Chemical Composition Descriptors"
+type: software
+version: "1.0.1"
+date-released: 2026-08-04
+
+authors:
+  - family-names: "Cobelli"
+    given-names: "Matteo"
+    orcid: "https://orcid.org/0000-0002-6829-2754"
+    affiliation: "School of Physics and CRANN Institute, Trinity College Dublin"
+
+abstract: >-
+  Automat is a minimal autoresearch framework for designing composition-only
+  descriptors for materials-property regression tasks. A coding agent proposes,
+  implements, evaluates, and refines chemically motivated descriptors within a
+  reproducible random-forest workflow.
+
+repository-code: "https://github.com/m-cobelli/automat"
+url: "https://github.com/m-cobelli/automat"
+license: "MIT"
+
+keywords:
+  - materials science
+  - materials informatics
+  - compositional descriptors
+  - machine learning
+  - autoresearch
+  - agentic AI

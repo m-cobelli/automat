@@ -1,6 +1,6 @@
 [project]
 name = "automat"
-version = "1.0.0"
+version = "1.0.1"
 description = "Autoresearch Workflow for Designing Chemical Composition Descriptors."
 requires-python = ">=3.10,<3.12"
 dependencies = [
